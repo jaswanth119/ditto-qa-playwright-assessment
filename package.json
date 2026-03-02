@@ -1,0 +1,14 @@
+{
+  "name": "ditto-qa-playwright-assessment",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ditto": "npx playwright test tests",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.0",
+    "typescript": "^5.0.0"
+  }
+}
